@@ -1,2 +1,2 @@
 # quasar-vecindario
-quasar typescript 
+quasar typescript inversify vuex
