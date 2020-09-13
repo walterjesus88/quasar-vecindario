@@ -1,0 +1,10 @@
+{
+  "qhierarchy": {},
+  "@quasar/qcalendar": {},
+  "@quasar/typescript": {
+    "codeUpdate": true,
+    "componentStyle": "class",
+    "vscode": false,
+    "prettier": false
+  }
+}

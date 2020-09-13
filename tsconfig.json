@@ -1,0 +1,26 @@
+{
+  "extends": "@quasar/app/tsconfig-preset",
+  "compilerOptions": {
+    // "allowJs": true,
+    // "strict": true,
+    // "module": "esnext",
+  	"allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": [
+      "webpack-env",
+      "reflect-metadata"
+    ],
+    "strictPropertyInitialization": false,
+    "target": "es6",  
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ]
+  }
+}
